@@ -4,50 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        table{
-            border: thick solid grey;
-            border-collapse: collapse;
-            width: 25%;
-        }
-
-        th, td{
-            border:thin solid black;
-            padding: 8px;
-            width: 50%;
-        }
-    </style>
-    <script src="utilities,js"></script>
-    <script>
-        function initialize(){
-            diceTable = document.getElementById("dicetable");
-            rollDice();
-        }
-
-        function rollDice(){
-            var numRolls = getRandomInteger(25, 100);
-
-            for (var i = 0; i < numRolls; i++){
-
-                var dieRoll = getRandomInteger(1, 6);
-
-                var newRow = diceTable.insertRow();
-                var newCell = newRow.insertCell();
-                newCell.innerHTML = "Roll " + (i + 1);
-
-                newCell = newRow.insertCell();
-                newCell.innerHTML = diceRoll;
-            }
-        }
-    </script>
-</head>
-<body onload = "initialize();">
-    <table id="dicetable">
-        <tr>
-            <th>Roll</th>
-            <th>Result</th>
-        </tr>
-    </table>
+    <title>D=ScreenSizes</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+     <body> 
+         <h1>Heading</h1>
+         <p>Paragraph1</p>
+         <p>Paragraph2</p>
+         <p>Paragraph3</p>
+         <img src="image.jpg" alt"image">
+         <br>
+         <a href= "https://en.wikipedia.org/wiki/Instagram_egg">Best Egg</a>
 </body>
 </html>
