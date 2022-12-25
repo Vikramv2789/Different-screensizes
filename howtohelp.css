@@ -1,0 +1,13 @@
+img {
+    width: 500px;
+    height:300px;
+}
+body {
+    background-color: #DBF9FC;
+    }
+ @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        body {
+          background-color: #DBF9FC;
+          width: 100%;
+        }
+      }    
