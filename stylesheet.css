@@ -1,0 +1,11 @@
+ @media screen and (max-width : 600px) {
+        body {
+          background-color: lightyellow;
+        }
+     
+ @media screen and (min-device-width : 600px) {
+        body {
+          background-color: lightblue;
+        }     
+      }    
+     /*I accomplished this through the website links that were provided in the classroom. It looks different when you adjust screen size since the background changes color/*
